@@ -1,0 +1,7 @@
+appId: com.atithi.mobile
+---
+- tapOn:
+    text: "Enter 10-digit number"
+- inputText: "${Phone_Number}"
+- tapOn:
+    point: "5%, 15%"

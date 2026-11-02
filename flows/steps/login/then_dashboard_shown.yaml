@@ -1,0 +1,3 @@
+appId: com.atithi.mobile
+---
+- assertVisible: ".*Dashboard|Welcome back.*"

@@ -1,0 +1,37 @@
+appId: com.atithi.mobile
+---
+- tapOn:
+    point: "11%, 58%"
+- inputText: "${OTP_DIGIT_0}"
+- tapOn:
+    point: "5%, 15%"
+
+- tapOn:
+    point: "27%, 58%"
+- inputText: "${OTP_DIGIT_1}"
+- tapOn:
+    point: "5%, 15%"
+
+- tapOn:
+    point: "42%, 58%"
+- inputText: "${OTP_DIGIT_2}"
+- tapOn:
+    point: "5%, 15%"
+
+- tapOn:
+    point: "58%, 58%"
+- inputText: "${OTP_DIGIT_3}"
+- tapOn:
+    point: "5%, 15%"
+
+- tapOn:
+    point: "73%, 58%"
+- inputText: "${OTP_DIGIT_4}"
+- tapOn:
+    point: "5%, 15%"
+
+- tapOn:
+    point: "89%, 58%"
+- inputText: "${OTP_DIGIT_5}"
+- tapOn:
+    point: "5%, 15%"

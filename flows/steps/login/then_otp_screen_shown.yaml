@@ -1,0 +1,4 @@
+appId: com.atithi.mobile
+---
+- assertVisible: "Verify OTP"
+- assertVisible: ".*Enter the code sent to.*"

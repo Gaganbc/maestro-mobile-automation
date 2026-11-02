@@ -1,0 +1,4 @@
+appId: com.atithi.mobile
+---
+- tapOn:
+    point: "50%, 69%"

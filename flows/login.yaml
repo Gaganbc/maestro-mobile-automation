@@ -1,0 +1,20 @@
+appId: com.atithi.mobile
+---
+- runFlow: steps/login/given_app_launched.yaml
+- runFlow:
+    file: steps/login/when_enter_phone_number.yaml
+    env:
+      Phone_Number: ${TEST_PHONE}
+- runFlow: steps/login/when_tap_continue.yaml
+- runFlow: steps/login/then_otp_screen_shown.yaml
+- runFlow:
+    file: steps/login/when_enter_otp.yaml
+    env:
+      OTP_DIGIT_0: ${OTP_DIGIT_0}
+      OTP_DIGIT_1: ${OTP_DIGIT_1}
+      OTP_DIGIT_2: ${OTP_DIGIT_2}
+      OTP_DIGIT_3: ${OTP_DIGIT_3}
+      OTP_DIGIT_4: ${OTP_DIGIT_4}
+      OTP_DIGIT_5: ${OTP_DIGIT_5}
+- runFlow: steps/login/when_tap_verify.yaml
+- runFlow: steps/login/then_dashboard_shown.yaml

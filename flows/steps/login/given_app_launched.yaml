@@ -1,0 +1,7 @@
+appId: com.atithi.mobile
+---
+- launchApp:
+    clearState: true
+- extendedWaitUntil:
+    visible: ".*Welcome Back.*"
+    timeout: 60000
