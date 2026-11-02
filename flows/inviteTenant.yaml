@@ -1,0 +1,9 @@
+appId: com.atithi.mobile
+---
+- runFlow: login.yaml
+- tapOn: "Add Tenant"
+- assertVisible: "Is this tenant already living here"
+- tapOn: "Yes, already living here"
+- tapOn: "Generate Form Link"
+- assertVisible: "Copy code"
+- assertVisible: "Share"

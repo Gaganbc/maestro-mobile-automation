@@ -1,0 +1,16 @@
+appId: com.atithi.mobile
+---
+- runFlow: login.yaml
+- tapOn: "Rooms"
+- tapOn: "Add New Room"
+- tapOn: "e.g. 101"
+- inputText: "102"
+- tapOn: "e.g. 1"
+- inputText: "1"
+- tapOn: "Bed 1 number"
+- inputText: "AAA"
+- tapOn: "Rent (₹)"
+- inputText: "500"
+- tapOn: "Add Room"
+- tapOn: "OK"
+- assertVisible: "102"
